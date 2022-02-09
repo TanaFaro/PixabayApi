@@ -2,11 +2,6 @@ import axios from 'axios';
 import { useState } from 'react';
 import './App.css';
 import Images from './Images';
-;
-
-
-
-
 
 
 const App = () => {
@@ -46,6 +41,7 @@ const App = () => {
         > Search...
         </button>
       </form>
+      
       <div className="images-container">
         {
               images.map( image => (
